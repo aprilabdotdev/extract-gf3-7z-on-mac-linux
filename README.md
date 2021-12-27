@@ -20,3 +20,6 @@ First of all, you need to install https://github.com/jinfeihan57/p7zip into your
 ./extract.sh /path/to/dir/
 ```
 
+## Disclaimer
+
+This repo does not provide sample GF3 data. Use your own data is advised. 
