@@ -2,6 +2,8 @@
 
 This repo provides a solution to batch extract the 7z compressed GaoFen-3 data on a Unix system (including MacOS and Linux). 
 
+此 repo 提供了一个在 MacOS、Linux（这里也包括 Windows 下的 WSL）环境下批量解压高分三号 7z 格式压缩格式的方法。
+
 ## What's special about this 7z format?
 
 Some distributed GaoFen-3 data are compressed into 7z using the zstd compress algorithm ([what is zstd?](https://github.com/mcmilk/7-Zip-zstd)). This compress codec is not supported by mainstream compression/extraction software, so additional software packages are required for extracting this kind of compress file. 
