@@ -5,7 +5,7 @@ if [[ "$1" = "-h" || $# -eq 0 ]]; then
     echo "  Usage: ./extract.sh /path/to/dir/"
     echo ""
 else
-    total_line=$(ls | grep 7z | wc -l)
+    total_line=$(ls $1 | grep 7z | wc -l)
     ((i=1))
     for FILE in "$1"/*; do
         if [[ $FILE == *.7z ]]; then
