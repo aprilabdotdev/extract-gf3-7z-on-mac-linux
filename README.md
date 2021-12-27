@@ -1,6 +1,7 @@
 # extract-gf3-7z-on-mac-linux
 
 This repo provides a solution to batch extract the 7z compressed GaoFen-3 data on a Unix system (including MacOS and Linux). 
+此 repo 提供了一个在 MacOS、Linux（这里也包括 Windows 下的 WSL）环境下批量解压高分三号 7z 格式压缩格式的方法。
 
 ## What's special about this 7z format?
 
