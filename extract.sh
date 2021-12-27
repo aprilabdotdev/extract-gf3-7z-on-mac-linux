@@ -11,8 +11,8 @@ else
         if [[ $FILE == *.7z ]]; then
             printf "\nunzipping file (%s/%s)...\n" $i $total_line
             fn=$( echo "$FILE" | sed -E 's/.*(GF3.*7z).*/\1/g' )
-    	dir_name=$( echo "$FILE" | sed -E 's/.*(GF3.*)\.7z.*/\1/g' )
-            7za e $fn -o$dir_name
+    	    dir_name=$( echo "$FILE" | sed -E 's/.*(GF3.*)\.7z.*/\1/g' )
+            7za x $FILE -o$dir_name
             # echo $dir_name
             ((i=i+1))
         fi
